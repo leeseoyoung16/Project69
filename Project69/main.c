@@ -130,6 +130,7 @@ int main(void) {
 	insert_edge(g, 9, 10, 10);
 
 	kruskal(g); 
+
 	free(g);
 	return 0;
 
